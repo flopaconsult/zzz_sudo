@@ -13,3 +13,4 @@ end
 default[:authorization][:sudo][:users] << "ubuntu"
 #default[:authorization][:sudo][:users] << "fdrescher"
 default[:authorization][:sudo][:groups] << "sysadmin"
+default['authorization']['sudo']['passwordless'] = true
